@@ -1,0 +1,25 @@
+# Python virtual environments
+.venv/
+.venv*/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Frontend node modules & build
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Large datasets (>100MB cannot be pushed to GitHub)
+*.csv
+backend/data/*.csv
+
+# System and Environment files
+.env
+.DS_Store
+Thumbs.db
